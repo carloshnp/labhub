@@ -13,7 +13,7 @@ export function loader() {
 export default function Index() {
   const data = useLoaderData<typeof loader>()
   return (
-    <div className="h-screen flex flex-col justify-between box-border bg-slate-800">
+    <div className="h-screen flex flex-col justify-between box-border bg-[#333333]">
         <Topbar />
         <div className="flex-grow">
           <PanelContainer />
